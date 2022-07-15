@@ -196,7 +196,7 @@ if __name__ == '__main__':
     print(model)
 
     model.load_state_dict(
-        torch.load('J:\检测框架\关键点检测\HRNet\weights\pose_hrnet_w48_384x288.pth')
+        torch.load(r'F:\HIT-Class-two\CCCC-AI\code\first_code\weights\pose_hrnet_w48_384x288.pth')
         # torch.load('./weights/pose_hrnet_w32_256x192.pth')
     )
     print('ok!!')
